@@ -1,8 +1,9 @@
-import { StaticCostMapping } from "./config";
-import { Score, CostType } from "./types";
+import { DropData, StaticCostMapping } from "@config";
+import { Score, CostType } from "@types";
 
 class Back1999Calculator {
   static energyCostPerHundred = 100;
+  static dropData = DropData
 
   costMapping: Map<CostType, Score>;
 

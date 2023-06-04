@@ -1,4 +1,4 @@
-import { MindType, Score, CostType } from "../types";
+import { MindType, Score, CostType } from "@types";
 
 type MindExperienceType = Extract<MindType, "启寤1" | "启寤2" | "启寤3">;
 

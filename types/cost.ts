@@ -1,4 +1,4 @@
-import { Currency, Mind, Cost } from "../common";
+import { Currency, Mind, Cost } from "@common";
 
 export type CostType = (typeof Cost)[number];
 export type MindType = (typeof Mind)[number];
