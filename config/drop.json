@@ -1,0 +1,363 @@
+{
+  "$schema": "./schema/drop.schema.json",
+  "drops": [
+    {
+      "level": "4-10-TH",
+      "drop": [
+        {
+          "name": "精磨苦盐",
+          "probability": "normal"
+        },
+        {
+          "name": "液化战栗",
+          "probability": "normal"
+        },
+        {
+          "name": "未知种根骨",
+          "probability": "normal"
+        },
+        {
+          "name": "粗糙银锭",
+          "probability": "normal"
+        },
+        {
+          "name": "幸运咒语",
+          "probability": "normal"
+        }
+      ]
+    },
+    {
+      "level": "4-10-RD",
+      "drop": [
+        {
+          "name": "啮咬盒",
+          "probability": "normal"
+        },
+        {
+          "name": "粗糙银锭",
+          "probability": "high"
+        },
+        {
+          "name": "液化战栗",
+          "probability": "normal"
+        },
+        {
+          "name": "精磨苦盐",
+          "probability": "normal"
+        },
+        {
+          "name": "未知种根骨",
+          "probability": "normal"
+        },
+        {
+          "name": "幸运咒语",
+          "probability": "normal"
+        },
+        {
+          "name": "银矿原石",
+          "probability": "high"
+        }
+      ]
+    },
+    {
+      "level": "4-11-TH",
+      "drop": [
+        {
+          "name": "未知种根骨",
+          "probability": "normal"
+        },
+        {
+          "name": "液化战栗",
+          "probability": "normal"
+        },
+        {
+          "name": "精磨苦盐",
+          "probability": "normal"
+        },
+        {
+          "name": "祝圣秘银",
+          "probability": "normal"
+        },
+        {
+          "name": "幸运咒语",
+          "probability": "normal"
+        }
+      ]
+    },
+    {
+      "level": "4-11-RD",
+      "drop": [
+        {
+          "name": "百灵百验鸟",
+          "probability": "normal"
+        },
+        {
+          "name": "未知种根骨",
+          "probability": "normal"
+        },
+        {
+          "name": "清扫咒",
+          "probability": "high"
+        },
+        {
+          "name": "破碎骨片",
+          "probability": "high"
+        }
+      ]
+    },
+    {
+      "level": "4-13-TH",
+      "drop": [
+        {
+          "name": "液化战栗",
+          "probability": "high"
+        },
+        {
+          "name": "未知种根骨",
+          "probability": "normal"
+        },
+        {
+          "name": "颤颤之齿",
+          "probability": "normal"
+        },
+        {
+          "name": "苦盐簇",
+          "probability": "normal"
+        },
+        {
+          "name": "破碎骨片",
+          "probability": "normal"
+        },
+        {
+          "name": "银矿原石",
+          "probability": "normal"
+        },
+        {
+          "name": "清扫咒",
+          "probability": "normal"
+        }
+      ]
+    },
+    {
+      "level": "4-13-RD",
+      "drop": [
+        {
+          "name": "祝圣秘银",
+          "probability": "normal"
+        },
+        {
+          "name": "精磨苦盐",
+          "probability": "normal"
+        },
+        {
+          "name": "苦盐簇",
+          "probability": "normal"
+        },
+        {
+          "name": "银矿原石",
+          "probability": "high"
+        }
+      ]
+    },
+    {
+      "level": "4-16-TH",
+      "drop": [
+        {
+          "name": "微尘",
+          "probability": "must"
+        },
+        {
+          "name": "液化战栗",
+          "probability": "normal"
+        },
+        {
+          "name": "精磨苦盐",
+          "probability": "normal"
+        },
+        {
+          "name": "未知种根骨",
+          "probability": "normal"
+        },
+        {
+          "name": "粗糙银锭",
+          "probability": "normal"
+        },
+        {
+          "name": "幸运咒语",
+          "probability": "normal"
+        }
+      ]
+    },
+    {
+      "level": "4-16-RD",
+      "drop": [
+        {
+          "name": "幸运咒语",
+          "probability": "must"
+        },
+        {
+          "name": "液化战栗",
+          "probability": "normal"
+        },
+        {
+          "name": "精磨苦盐",
+          "probability": "normal"
+        },
+        {
+          "name": "未知种根骨",
+          "probability": "normal"
+        },
+        {
+          "name": "粗糙银锭",
+          "probability": "normal"
+        }
+      ]
+    },
+    {
+      "level": "4-18-TH",
+      "drop": [
+        {
+          "name": "微尘",
+          "probability": "must"
+        },
+        {
+          "name": "液化战栗",
+          "probability": "normal"
+        },
+        {
+          "name": "精磨苦盐",
+          "probability": "normal"
+        },
+        {
+          "name": "未知种根骨",
+          "probability": "normal"
+        },
+        {
+          "name": "粗糙银锭",
+          "probability": "normal"
+        },
+        {
+          "name": "幸运咒语",
+          "probability": "normal"
+        }
+      ]
+    },
+    {
+      "level": "4-18-RD",
+      "drop": [
+        {
+          "name": "利齿子儿",
+          "probability": "must"
+        },
+        {
+          "name": "液化战栗",
+          "probability": "normal"
+        },
+        {
+          "name": "精磨苦盐",
+          "probability": "normal"
+        },
+        {
+          "name": "未知种根骨",
+          "probability": "normal"
+        },
+        {
+          "name": "粗糙银锭",
+          "probability": "normal"
+        },
+        {
+          "name": "幸运咒语",
+          "probability": "normal"
+        }
+      ]
+    },
+    {
+      "level": "4-20-TH",
+      "drop": [
+        {
+          "name": "利齿子儿",
+          "probability": "must"
+        },
+        {
+          "name": "液化战栗",
+          "probability": "normal"
+        },
+        {
+          "name": "精磨苦盐",
+          "probability": "normal"
+        },
+        {
+          "name": "未知种根骨",
+          "probability": "normal"
+        },
+        {
+          "name": "粗糙银锭",
+          "probability": "normal"
+        },
+        {
+          "name": "幸运咒语",
+          "probability": "normal"
+        }
+      ]
+    },
+    {
+      "level": "4-20-RD",
+      "drop": [
+        {
+          "name": "双头形骨架",
+          "probability": "normal"
+        },
+        {
+          "name": "幸运咒语",
+          "probability": "normal"
+        },
+        {
+          "name": "破碎骨片",
+          "probability": "high"
+        },
+        {
+          "name": "清扫咒",
+          "probability": "high"
+        }
+      ]
+    },
+    {
+      "level": "4-21-TH",
+      "drop": [
+        {
+          "name": "罗马金币",
+          "probability": "normal"
+        },
+        {
+          "name": "液化战栗",
+          "probability": "normal"
+        },
+        {
+          "name": "颤颤之齿",
+          "probability": "high"
+        }
+      ]
+    },
+    {
+      "level": "4-21-RD",
+      "drop": [
+        {
+          "name": "盐封曼德拉",
+          "probability": "normal"
+        },
+        {
+          "name": "液化战栗",
+          "probability": "normal"
+        },
+        {
+          "name": "苦盐簇",
+          "probability": "high"
+        },
+        {
+          "name": "颤颤之齿",
+          "probability": "high"
+        }
+      ]
+    }
+  ]
+}
