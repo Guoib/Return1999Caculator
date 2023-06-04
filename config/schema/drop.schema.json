@@ -1,0 +1,61 @@
+{
+  "type": "object",
+  "properties": {
+    "drops": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "level": {
+            "type": "string",
+            "pattern": "^\\d+-\\d+-(TH|RD)$",
+            "description": "关卡"
+          },
+          "drop": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "enum": [
+                    "利齿子儿",
+                    "微尘",
+                    "银矿原石",
+                    "清扫咒",
+                    "破碎骨片",
+                    "苦盐簇",
+                    "颤颤之齿",
+                    "罗马金币",
+                    "幸运咒语",
+                    "粗糙银锭",
+                    "未知种根骨",
+                    "精磨苦盐",
+                    "液化战栗",
+                    "百灵百验鸟",
+                    "祝圣秘银",
+                    "双头形骨架",
+                    "盐封曼德拉",
+                    "啮咬盒",
+                    "金爪灵摆"
+                  ],
+                  "description": "掉落物名称"
+                },
+                "probability": {
+                  "type": "string",
+                  "enum": [
+                    "must",
+                    "high",
+                    "normal",
+                    "small"
+                  ],
+                  "description": "掉落概率"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
