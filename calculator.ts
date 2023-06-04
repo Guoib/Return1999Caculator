@@ -10,6 +10,11 @@ class Back1999Calculator {
     this.costMapping = StaticCostMapping;
   }
 
+  /**
+   * Calculate the energy equivalent of the gift content
+   * @param params The items in the gift and the number of items
+   * @returns energy equivalent of the gift content
+   */
   calcGiftEnergy(params: Partial<Record<CostType, number>>) {
     return Object.entries(params).reduce(
       (cost, item) => (this.costMapping.get(item[0] as CostType) || 0) * item[1] + cost,
@@ -17,7 +22,12 @@ class Back1999Calculator {
     );
   }
 
-  calcGiftCost(params: Partial<Record<CostType, number>>) {
+  /**
+   * Calculate the value of gift content
+   * @param params The items in the gift and the number of items
+   * @returns Value of gift content
+   */
+  calcGiftValue(params: Partial<Record<CostType, number>>) {
     return (this.calcGiftEnergy(params) * Back1999Calculator.energyCostPerHundred) / 100;
   }
 }
