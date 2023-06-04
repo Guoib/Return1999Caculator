@@ -1,6 +1,27 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@config": [
+        "./config"
+      ],
+      "@common": [
+        "./common"
+      ],
+      "@docs/*": [
+        "./docs/*"
+      ],
+      "@json/*": [
+        "./json/*"
+      ],
+      "@types": [
+        "./types/index"
+      ]
+    }
   }
 }
